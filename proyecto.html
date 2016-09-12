@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  
+ <form action="matriz.php" method="post" >
+ <h1 align="center" class="">Matriz A 3*3 </h1>
+<table align="center">
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td>
+            <label><input type="text" name="x1" /></label></td>
+    <td><input type="text" name="x2" /></td>
+    <td><input type="text" name="x3" /></td>
+            
+  </tr>
+
+  <tr>
+    <td><input type="text" name="x4" /></td>
+    <td><input type="text" name="x5" /></td>
+    <td><input type="text" name="x6" /></td>
+
+  </tr>
+            
+  <tr>
+  <td><input type="text" name="x7" /></td>
+  <td><input type="text" name="x8" /></td>
+  <td><input type="text" name="x9" /></td>
+  </tr>
+      </table> 
+
+  <h1 align="center" class="">Matriz B 3*3 </h1>
+  <table>
+
+  <tr>
+    <td>
+    <label><input type="text" name="y1" /></label>
+    </td>
+    <td><input type="text" name="y2" /></td>
+    <td><input type="text" name="y3" /></td>
+    </tr>
+      
+      <tr>
+      <td><input type="text" name="y4" /></td>
+      <td><input type="text" name="y5" /></td>
+      <td><input type="text" name="y6" /></td>
+      </tr>
+
+    <tr>
+      <td><input type="text" name="y7" /></td>
+      <td><input type="text" name="y8" /></td>
+      <td><input type="text" name="y9" /></td>
+    </tr>
+        </table>     
+
+<br><br>
+
+    <label>Operación a realizar</label>
+          <select name="opciones">
+          <option value="sumar"> Suma de matrices </option>
+          <option value="resta"> Resta de matrices </option>
+          <option value="multiplicacion"> Multiplicacion de matrices </option>
+          </select>
+          <input type="submit" name="Calcular" value="Calcular">
+
+</form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+
+	<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Opreciones de un matriz</title>
+</head>
+<body>
+<form action="matrizz.php" method="post" >
+ <h1 align="center" class="">Matriz C </h1>
+<table align="center">
+  <tr>
+  <td>
+  <table>
+  <tr><td>
+    <label><input type="text" name="x1" /></label></td>
+  <td><input type="text" name="x2" /></td>
+  <td><input type="text" name="x3" /></td>
+    </tr>
+
+  <tr>
+  <td><input type="text" name="x4" /></td>
+  <td><input type="text" name="x5" /></td>
+  <td><input type="text" name="x6" /></td>
+  </tr>
+  
+  <tr>
+  <td><input type="text" name="x7" /></td>
+  <td><input type="text" name="x8" /></td>
+  <td><input type="text" name="x9" /></td>
+  </tr>
+    </table> 
+
+    
+</table> <br><br>
+<label>Número por el cual va a multiplicar la matriz</label>
+ <input type="text" name="mult"/><br>
+<label>selecione la operacion a realizar</label>
+        <select name="opcion">
+            <option value="deter">Determinante </option>
+            <option value="inver"> Matriz inversas </option>
+            <option value="trans">Matriz transpuesta </option>
+            <option value="mul"> Multiplicar </option>
+            <option value="elev">Matriz elevada </option>
+        </select>
+        <input type="submit" name="calcular" value="Calcular">
+</form>
+  
+</body>
+</html>
